@@ -9,6 +9,8 @@ Skills personalizados para OpenCode, creados y mantenidos por **Luis Pinto**.
 | **plusoft-expert** | 🏪 Experto en PLUS_SOFT+ (sistema POS/facturación con CustomTkinter + MariaDB) |
 | **python-pro** | 🐍 Desarrollo Python 3.11+ con type hints, async, pytest |
 | **sql-pro** | 🗄️ Optimización SQL, CTEs, window functions, indexing |
+| **customtkinter-expert** | 🎨 Desarrollo GUI con CustomTkinter: widgets, temas, tablas, layouts |
+| **mysql-mariadb-pro** | 🗃️ MySQL y MariaDB: optimización, administración, XAMPP, backup |
 | **debugging-wizard** | 🐛 Debugging sistemático multi-lenguaje |
 | **secure-code-guardian** | 🔒 Código seguro: OWASP, bcrypt, parametrized queries |
 | **test-master** | ✅ Tests: unit, integración, E2E, performance, TDD |
