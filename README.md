@@ -24,7 +24,7 @@ Skills personalizados para OpenCode, creados y mantenidos por **Luis Pinto**.
 ### Opción 1: Clonar y copiar (recomendado)
 
 ```powershell
-git clone https://github.com/LuisPinto/LuisPinto.git
+git clone https://github.com/luispintoolavarria13/PlusSoft.git
 cd LuisPinto
 .\install.ps1
 ```
@@ -38,7 +38,7 @@ Copia las carpetas de `skills/` que quieras a tu `C:\Users\Ronald\.opencode\skil
 ```json
 {
   "skills": {
-    "urls": ["https://github.com/LuisPinto/LuisPinto"]
+    "urls": ["https://github.com/luispintoolavarria13/PlusSoft"]
   }
 }
 ```
@@ -51,6 +51,26 @@ Para actualizar los skills cuando haya nuevos cambios:
 git pull
 .\install.ps1
 ```
+
+## ⚙️ Configuración de LSPs
+
+Este repo incluye un archivo `opencode.template.json` con la configuración de **Language Server Protocol (LSP)** para OpenCode, que habilita autocompletado y análisis de código en tiempo real.
+
+### LSPs incluidos
+
+| Lenguaje | LSP | Extensiones |
+|----------|-----|-------------|
+| **Python** | pyright (vía npx) | `.py` |
+| **TypeScript/JavaScript** | typescript-language-server (vía npx) | `.ts`, `.tsx`, `.js`, `.jsx` |
+
+### Cómo usarlo
+
+1. Copia el template a tu carpeta de configuración:
+   ```powershell
+   copy opencode.template.json "$env:USERPROFILE\.opencode\opencode.json"
+   ```
+2. Edita el archivo y reemplaza `TU_API_KEY_AQUI` con tu API key de OpenRouter.
+3. Asegúrate de tener Node.js instalado (los LSPs se ejecutan via `npx`).
 
 ## 📝 Licencia
 
